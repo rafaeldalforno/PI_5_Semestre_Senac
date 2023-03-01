@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "pi5semestre",
+    "slug": "pi5semestre",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
