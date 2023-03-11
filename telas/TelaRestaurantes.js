@@ -21,7 +21,7 @@ export default function TelaRestaurantes(){
       <View style={styles.cabecalho}>
         <Image 
           style={styles.logo}
-          source={require('../assets/imagens/logo.png')} 
+          source={require('../assets/imagens/logoatual.png')} 
         />
         <Text style={styles.text}>Cardápios Próximo ao seu CEP: </Text>
       </View>
@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
   cabecalho: {
     marginTop: 20,
     padding: 10,
-    flexDirection: 'row'
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 
   restaurantes: {
@@ -50,12 +51,12 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    fontSize: 18
+    fontSize: 22
   },
 
   logo: {
     margin: 10,
-    width: 100,
+    width: 200,
     height: 100
   }
 });

@@ -21,7 +21,7 @@ export default function TelaCardapio(){
       <View style={styles.cabecalho}>
         <Image 
           style={styles.logo}
-          source={require('../assets/imagens/logo.png')} 
+          source={require('../assets/imagens/logoatual.png')} 
         />
         <Text style={styles.text}>{'Menu do Restaurante'}</Text>
       </View>
@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
   cabecalho: {
     marginTop: 20,
     padding: 10,
-    flexDirection: 'row'
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 
   prato: {
@@ -51,12 +52,12 @@ const styles = StyleSheet.create({
 
   logo: {
     margin: 10,
-    width: 100,
+    width: 200,
     height: 100
   },
 
   text: {
-    fontSize: 18,
-    padding: 30
+    fontSize: 22,
+    padding:10
   }
 });
